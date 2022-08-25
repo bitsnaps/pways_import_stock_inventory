@@ -1,6 +1,6 @@
 # Import Stock Inventory
 
-This module is provided by [Preciseways](preciseways.com) available for free at [Odoo Apps](https://apps.odoo.com/apps/modules/11.0/pways_import_stock_inventory/).
+This module is provided by [Preciseways](preciseways.com) available for free at [Odoo Apps](https://apps.odoo.com/apps/modules/12.0/pways_import_stock_inventory/).
 
 #### OverView
 

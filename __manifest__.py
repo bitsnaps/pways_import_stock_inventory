@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Import Stock Inventory',
-    'version': '11.0.1',
+    'version': '12.0.0',
     'summary': 'This app helps to import stock inventory adjustment from xls file',
     'description': """ This app helps to import stock inventory adjustment from xls file """,
     'category' : 'Warehouses',
@@ -11,7 +11,7 @@
     'data': [
             "security/ir.model.access.csv",
             "security/access_right.xml",
-            "views/stock_view.xml"
+            "views/stock_view.xml",
              ],
     'installable': True,
     'application': True,
