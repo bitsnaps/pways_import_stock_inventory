@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<odoo>xlrd
+<odoo>
     <data>
 
     <record id="import_stock_inventory_wizard_view" model="ir.ui.view">
@@ -22,7 +22,7 @@
                     <field name="file"  filename="filename" />
                 </group>
                 <footer>
-                    <button name="import_xls" string="Import Inventory" type="object"/>
+                    <button name="import_csv" string="Import Inventory" type="object"/>
                 </footer>
             </form>
         </field>
@@ -31,16 +31,15 @@
     <record id="import_stock_inventory_wizard" model="ir.actions.act_window">
         <field name="name">Import Inventory</field>
         <field name="res_model">import.stock.inventory</field>
-        <field name="view_type">form</field>
         <field name="view_mode">form</field>
         <field name="target">new</field>
     </record>
-    
+
    <menuitem action="import_stock_inventory_wizard"
         name="Import Stock Inventory"
         id="import_stock_inventory_action"
-        parent="stock.menu_stock_inventory_control"
-        groups="pways_import_stock_inventory.group_import_inventory_access"
+        parent="stock.menu_stock_inventory_control" 
+        groups="pways_import_stock_inventory.group_import_inventory_access" 
         sequence="31"
     />
 
